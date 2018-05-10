@@ -89,8 +89,8 @@ section {
 
 .subgrid {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(3, ifr) auto;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(2, 1fr) auto;
     align-items: stretch;
     grid-gap: 1rem;
     padding: 3rem;
@@ -139,7 +139,7 @@ footer {
     font-size: 1.5rem;
 }
 
-.back {
+/*.back {
     position: absolute;
     background: #f44333;
     background-position: center;
@@ -149,7 +149,7 @@ footer {
     height: 450px;
     z-index: -1;
     opacity: 0.4;
-}
+}*/
 
 
 }
